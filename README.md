@@ -17,7 +17,7 @@ In this project I have built a **set of functions** that organize and manipulate
 
 Based on my functions' features I took the analysis beyond and used the `years` and the `damages` lists to create a plot that shows the _distribution_ and calculates the **mean** and the **median** of damage costs per year, which led me to the following output:
 
-![Damage costs of the hurricanes by year](Hurricanes_project/damage_costs_of_the_hurricanes_by_year2.png)
+![Damage costs of the hurricanes by year](Hurricanes_project/damagecosts.png)
 
 In the `years` list there are some outliers like 125B, 91.6B, or 64.8B that are significantly affecting the mean, driving it to a value of 10.67B dollars annual damage cost, and making it much higher than the median. This is because the mean is sensitive to extreme values, while the median provides a better central tendency measure in such cases. The median value is 1.42B damage cost by year.
 
