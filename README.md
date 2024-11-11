@@ -19,6 +19,6 @@ Based on my functions' features I took the analysis beyond and used the `years` 
 
 ![alt text](damagecosts.png)
 
-In the `years` list there are some outliers like 125B, 91.6B, or 64.8B that are significantly affecting the mean, driving it to a value of 10.67B dollars annual damage cost, and making it much higher than the median. This is because the mean is sensitive to extreme values, while the median provides a better central tendency measure in such cases. The median value is 1.42B damage cost by year.
+In the `damages` list there are some outliers like 125B, 91.6B, or 64.8B that are significantly affecting the mean, driving it to a value of 10.67B dollars annual damage cost, and making it much higher than the median. This is because the mean is sensitive to extreme values, while the median provides a better central tendency measure in such cases. The median value is 1.42B damage cost by year.
 
 For cases like this it is recommended to use visualization through Box Plot rather than Scatter Plot, however, my focus was not on the outlier values. I visualy appreciate Scatter plots the most so i could rapidly explain what happend with the mean value and the high costs that are skewing the mean upwards.
